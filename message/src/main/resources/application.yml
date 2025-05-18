@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: message
+  data:
+    mongodb:
+      uri: mongodb+srv://gautam:gautam123@cluster0.qpj5r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: whisprdb
+
+server:
+  port: 8082
